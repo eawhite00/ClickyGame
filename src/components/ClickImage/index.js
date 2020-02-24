@@ -6,6 +6,7 @@ function ClickImage(props) {
         <div
         style={{ backgroundImage: `url("${props.image}")` }}
         className="click-image"
+        onClick={props.clickHandler}
         />
     );
 }

@@ -9,6 +9,25 @@ class Game extends Component {
         images
     }
 
+
+    clickHandler = () => {
+        console.log("Clicked an image");
+        this.setState({
+            images: this.shuffle(images)
+        })
+    }
+
+    //To shuffle the array I'm using the Fisher-Yates algorithm
+    shuffle = images => {
+        for(let i = images.length - 1; i > 0; i--){
+            const j = Math.floor(Math.random() * i);
+            const tempImage = images[i];
+            images[i] = images[j];
+            images[j] = tempImage;
+          }
+          return images;
+    }
+
     render() {
         return (
             <Wrapper>
@@ -16,7 +35,7 @@ class Game extends Component {
                     <ClickImage
                         key={images.id}
                         id={images.id}
-                        //handleClick={this.handleItemClick}
+                        clickHandler={this.clickHandler}
                         image={item.image}
                     />
                 ))}
