@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/images/001Bulbasaur.png",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/004Charmander.png",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/007Squirtle.png",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/152Chikorita.png",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/155Cyndaquil.png",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/158Totodile.png",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "/assets/images/722Rowlet.png",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "/assets/images/725Litten.png",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "/assets/images/728Popplio.png",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "/assets/images/810Grookey.png",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "/assets/images/813Scorbunny.png",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "/assets/images/816Sobble.png",
+      "clicked": false
+    }
+  ]
+  
