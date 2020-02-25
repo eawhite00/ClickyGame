@@ -7,6 +7,12 @@ function Nav(props) {
     <nav className="navbar">
       <ul>
         <li>
+          Clicky Game!
+        </li>
+        <li>
+          Click an image to begin!
+        </li>
+        <li>
           Score: {props.score} | High Score: {props.highScore}
         </li>
       </ul>

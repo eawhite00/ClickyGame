@@ -1,0 +1,30 @@
+.navbar {
+    background: #c01010;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 26px 0px;
+    width: 33.3%;
+    text-align: center;
+  }
+
+  @media (max-width: 450px) {
+    .navbar li {
+        display: block;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+      }
+  }
+  
